@@ -3,7 +3,7 @@
 O VB Virtual É um ambiente corporatio tratando de soluções empresariais para melhor desenvolvimento dos setores.
 O Sistema foi voltado para ser totalmente responsivo, clean e trazer conceitos importantes sobre UX e UI.
 
-#As principais Tecnologias que serão utilizadas no projeto:
+#As principais Tecnologias que serão utilizadas no projeto:<br>
 @Front-End:
 - HTML
 - LESS/SASS
@@ -17,5 +17,7 @@ O Sistema foi voltado para ser totalmente responsivo, clean e trazer conceitos i
 - LARAVEL
 
 <img src="https://raw.githubusercontent.com/luancostar/VB-Virtual/master/gitrep/index1.png">
+<p>
 <img src="https://raw.githubusercontent.com/luancostar/VB-Virtual/master/gitrep/indexmob1.png">
 <img src="https://raw.githubusercontent.com/luancostar/VB-Virtual/master/gitrep/indexmob2.png">
+</p>
