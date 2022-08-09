@@ -6161,20 +6161,20 @@ textarea.form-control {
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to right, rgb(255, 0, 204), rgb(51, 51, 153)); }
+  background: linear-gradient(to right, rgb(227 105 19 / 95%), rgb(197 186 53)) }
 
 .bg-success {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to right, rgb(127, 0, 255), rgb(225, 0, 255));
+  background: linear-gradient(to right, rgb(255 82 0), rgb(255 247 0));
 }
 
 .bg-info {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224)); }
+  background: linear-gradient(to right, rgb(221 80 13 / 92%), rgb(224 124 0 / 93%))}
 
 .bg-warning {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224));
+  background: linear-gradient(to right, rgb(226 195 45), rgb(224 83 0));
 }
 
 .bg-danger {
@@ -8338,7 +8338,7 @@ a {
 	background:$color_pallate_6 !important;
 } */
 .bg-blue {
-  background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224)); }
+  background:linear-gradient(to right, #ff5555f2, rgb(253 160 21 / 92%))}
 
 .bg-orange {
   background: #ed8030 !important; }
@@ -8801,7 +8801,7 @@ label {
   background-color: #fff; }
   .waviy span
   {
-    color: rgb(102 16 242);
+    color: var(--bs-orange);
   }
 
 [data-theme-version="dark"] #preloader {
