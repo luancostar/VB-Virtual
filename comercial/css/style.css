@@ -27482,7 +27482,7 @@ table.dataTable.display tbody td {
   background: #5bcfc5;
   background: -moz-linear-gradient(left, #5bcfc5 25%, #3197b7 100%);
   background: -webkit-linear-gradient(left, #5bcfc5 25%, #3197b7 100%);
-  background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224));
+  background: linear-gradient(to right, rgb(255 179 41), rgb(247 105 44 / 75%));
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bcfc5', endColorstr='#3197b7',GradientType=1 );
   color: #fff; }
   .coin-card:after {
