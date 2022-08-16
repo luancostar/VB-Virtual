@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -99,8 +101,10 @@ body {
   transform-origin: bottom left;
  }
 ul li{
+  font-family: 'Cabin', sans-serif;
   line-height: 20px;
   font-size: 1rem;
+  padding: 5px;
 }
 h2{
   display: flex;
@@ -108,7 +112,7 @@ h2{
   justify-content: center;
 }
 h2 img{
-  width: 6rem;
+  width: 7rem;
 }
 input {
   background-color: transparent;
@@ -236,7 +240,7 @@ input::placeholder {
 .user_options-registered,
 .user_options-unregistered {
   width: 50%;
-  padding: 75px 45px;
+  padding: 50px 45px;
   color: #fff;
   font-weight: 300;
 }
@@ -297,11 +301,8 @@ input::placeholder {
   font-weight: 500;
   line-height: 1em;
   text-transform: uppercase;
-  color: #e8716d;
+  color: orangered;
   letter-spacing: 0.1rem;
-}
-.user_options-forms .forms_field:not(:last-of-type) {
-  margin-bottom: 20px;
 }
 .user_options-forms .forms_field-input {
   width: 100%;
@@ -667,3 +668,67 @@ input::placeholder {
 	  width: 500px;
 	}
   }
+/* From uiverse.io by @mrhyddenn */
+.form__group {
+  position: relative;
+  padding: 20px 0 0;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 17px;
+  color: rgb(44, 44, 44);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 17px;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: orangered;
+  pointer-events: none;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #116399, #38caef);
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #38caef;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
+}
